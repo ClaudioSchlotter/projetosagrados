@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;600&display=swap');
+
+/* Menu */
+.cor__navbar {
+    background-color: #563b2d;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: bisque;
+}
+
+.margem-direita {
+    margin-right: 2rem;
+}
+
+/* Background */
+.cor-de-fundo {
+    background-image: url(assets/fundoplano.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Carrossel */
+.imagem__carrossel {
+    max-height: 450px;
+    object-fit:cover;
+}
+
+/* Texto principal index */
+.titulo-destaque {
+    color: #8c696c;
+}
+
+.fonte-texto-principal {
+    /* font-family:'Montserrat', sans-serif; */
+    font-family: 'Krona One', sans-serif;
+}
+
+.fonte__paragrafo {
+    font-size: 35px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.fonte__paragrafo {
+    font-size: 19px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.imagem__texto__principal {
+    max-width: 200px;
+    max-width: 180px;
+    border-radius: 100%;
+    border: solid 2px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.margem__foto__sagrado {
+    margin-left: 220px;
+}
