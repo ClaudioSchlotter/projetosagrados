@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;600&display=swap');
 
 .tamanho-tela {
-    height: 100vh
+    height: 80vh
 }
 /* Menu */
 .cor__navbar {
@@ -63,8 +63,13 @@
 }
 
 .fonte__paragrafo {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     font-family:'Montserrat', sans-serif;
+}
+
+.fonte {
+    font-size: 1.80rem;
+    padding-top: 20px;
 }
 
 .imagem__texto__principal {
@@ -79,19 +84,20 @@
 }
 
 .margem__titulo {
-    margin-top: 9%;
+    margin-top: 2%;
+    margin-bottom: 7%;
 }
 
 
 /* About */
 
 .margin__imagem__about {
-    margin-left:30%;
-    margin-top: 10%
+    margin-left:20%;
+    margin-top: 5%
 }
 
 .margem__titulo__about {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top:2%;
 }
 
@@ -113,6 +119,16 @@
         height: 800px;
     }
     
+    .fonte {
+        font-size: 1.4rem;
+    }
+    
+    .fonte-texto-principal {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: black;
+    }
+
     .icones__tablet{
         padding-left: 60px;
     }
@@ -123,7 +139,7 @@
     }
 
     .margin__imagem {
-        margin-bottom: 5%;
+        margin-bottom: 10%;
         width: 60%;
     }
 
@@ -137,20 +153,27 @@
         font-family:'Montserrat', sans-serif;
     }
 
+    .margem__titulo {
+        text-align: center;
+    }
+
     .container__about {
         display: flex;
         flex-direction: column
     }
 
     .margin__imagem__about{
-
         width: 60%;
         margin-top: 0;
     }
 
     .margin__imagem__about {
         margin-left: 20%;
-        margin-bottom:4%;
+        margin-bottom:10%;
+    }
+
+    .margem__titulo__about{
+        text-align: center;
     }
 
     .container-fluid {
